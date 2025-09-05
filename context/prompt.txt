@@ -1,0 +1,9 @@
+- Use the .tex template to create an annotated greek text for publishing
+- Parse the following Greek text to identify lemmas
+- Create frequency-based vocabulary annotation (ONLY words outside top 1000 most common lemmas) 
+- Provide ONLY context-appropriate glosses for the text rather than the most common gloss for any lemma
+- Generate glosses with grammatical parsing.
+- Footnote format: "λέγω, say, speak, 3rd sg. impf. act. ind."
+- Format EVERYTHING as a clean, editable LaTeX section (do not include other LaTeX elements or formatting instructions.)
+- Do not wrap the latex code in quotes. 
+- Provide only the sections of text with footnotes - do not add details like a commentary or translation.

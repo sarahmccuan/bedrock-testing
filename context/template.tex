@@ -1,0 +1,62 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{ragged2e}
+
+% footnotes
+\usepackage[para*]{manyfoot}
+
+\DeclareNewFootnote[para]{A}
+\DeclareNewFootnote{B}[roman]
+
+\usepackage{perpage}
+\MakePerPage{footnoteA}
+\MakePerPage{footnoteB}
+\ExtraParaSkip{10pt}
+
+
+% Set up Greek and Latin
+\setdefaultlanguage{english}
+\setotherlanguage{greek}
+\setotherlanguage{latin}
+
+% Font setup - using Linux Libertine which has excellent Greek support
+\setmainfont{Linux Libertine O}
+\newfontfamily\greekfont{Linux Libertine O}
+
+% Header setup
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{Origen, \textit{Contra Celsum} Book 7}
+\fancyfoot[C]{\thepage}
+
+% Spacing
+\onehalfspacing
+
+\title{\textbf{ΟΡΙΓΕΝΟΥΣ ΠΡΟΣ ΤΟΝ ΕΠΙΓΕΓΡΑΜΜΕΝΟΝ ΚΕΛΣΟΥ ΑΛΗΘΗ ΛΟΓΟΝ}\\
+\textbf{ΤΟΜΟΣ ΕΒΔΟΜΟΣ}\\
+\vspace{0.5cm}
+\large{Origen, \textit{Against Celsus} Book 7}\\
+\normalsize{Greek Learner Text with Vocabulary Glosses}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{greek}
+\raggedright
+
+\section*{7.1}
+
+Ἐν ἓξ τοῖς πρὸ τούτων, ἱερὲ ἀδελφὲ Ἀμβρόσιε, ἀγωνισάμενοι\footnoteA{ἀγωνίζομαι, struggle, contend, 1st pl. aor. mid. part. nom.} κατὰ τὸ δυνατὸν ἡμῖν βιβλίοις\footnoteA{βιβλίον, book, scroll, dat. pl. neut.} πρὸς τὰς Κέλσου\footnoteA{Κέλσος, Celsus (proper name), gen. sg. masc.} <κατὰ> Χριστιανῶν κατηγορίας\footnoteA{κατηγορία, accusation, charge, acc. pl. fem.} καὶ μηδὲν ὅση δύναμις ἀβασάνιστον\footnoteA{ἀβασάνιστος, unexamined, untested, acc. sg. neut.} καὶ ἀνεξέταστον\footnoteA{ἀνεξέταστος, uninvestigated, unexamined, acc. sg. neut.} ἐάσαντες\footnoteA{ἐάω, allow, permit, 1st pl. aor. act. part. nom.} μηδὲ παρελθόντες\footnoteA{παρέρχομαι, pass by, omit, 1st pl. aor. act. part. nom.}.
+
+\end{greek}
+
+\end{document}
