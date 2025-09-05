@@ -61,6 +61,6 @@ if __name__ == "__main__":
     input = sys.argv[1]
     filestem = Path(input)
     output_filename = 'outputs/' + str(filestem.stem) + '.tex'
-    prompt = construct_claude_prompt('inputs/'+str(input))
+    prompt = construct_claude_prompt(str(input))
     response = get_claude_response(prompt)
     write_response_to_ouput_file(response, output_filename)
