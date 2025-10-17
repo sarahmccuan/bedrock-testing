@@ -4,6 +4,7 @@
 - Provide ONLY context-appropriate glosses for the text rather than the most common gloss for any lemma
 - Generate glosses with grammatical parsing.
 - Footnote format: "λέγω, say, speak, 3rd sg. impf. act. ind."
-- Format EVERYTHING as a clean, editable LaTeX section (do not include other LaTeX elements or formatting instructions.)
+- Format EVERYTHING as a clean, editable LaTeX section with the title in the format of 7.123 (Convert roman numerals to Arabic)
+- Do not include any other LaTeX elements like \begin{greek} or \raggedright.
 - Do not wrap the latex code in quotes. 
-- Provide only the sections of text with footnotes - do not add details like a commentary or translation.
+- Provide **only** the sections of text with footnotes - do not add details like a commentary or translation.
